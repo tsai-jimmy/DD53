@@ -20,7 +20,6 @@ ActiveRecord::Schema.define(version: 20160624052733) do
     t.datetime "created_at",                         null: false
     t.datetime "updated_at",                         null: false
     t.integer  "quantity",   limit: 4,   default: 1
-  end
 
   create_table "carts", force: :cascade do |t|
     t.datetime "created_at",           null: false
